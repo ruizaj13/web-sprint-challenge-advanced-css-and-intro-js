@@ -281,11 +281,12 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/*Your Code Here*/){
-  /*Your Code Here*/
+function addArtist(arr, id, name, years, genre, nationality, bio){
+  arr.push({id, name, years, genre, nationality, bio})
+  return arr
   }
 
-  
+  // console.log(addArtist(artists, 20, 'Juan', '1997-Present', 'Web Design', 'Mexican', 'Swiggity Swag Whats In The Bag' ))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Create a function called lotsOfArt() that takes one argument: 
